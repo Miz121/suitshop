@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuitShop - Stylish Suits for Every Occasion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .suit-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .suit-card:hover {
+            transform: scale(1.05);
+        }
+        .suit-card img {
+            width: 100%;
+            height: auto;
+        }
+        .suit-details {
+            padding: 20px;
+        }
+        .price {
+            font-size: 1.5em;
+            color: #ff6f61;
+        }
+        .payment-options {
+            margin-top: 20px;
+        }
+        .payment-options button {
+            background-color: #ff6f61;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .flowery-background {
+            background-image: url('https://www.publicdomainpictures.net/pictures/320000/velka/flower-background-1580903924rTg.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="flowery-background">
+        <h1>SuitShop - Stylish Suits for Every Occasion</h1>
+    </header>
+    <div class="container">
+        <div class="suit-card">
+            <img src="https://via.placeholder.com/800x400" alt="Suit Image">
+            <div class="suit-details">
+                <h2>Classic Black Suit</h2>
+                <p class="price">$199</p>
+                <div class="payment-options">
+                    <button>Buy with UPI</button>
+                    <button>Cash on Delivery</button>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat suit-card div for more suits -->
+    </div>
+    <footer class="flowery-background">
+        <p>&copy; 2024 SuitShop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
